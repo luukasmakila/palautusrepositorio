@@ -10,6 +10,7 @@ packages = [{include = "poetry_web"}]
 python = "^3.8"
 flask = "^2.2.2"
 pytest = "^7.2.0"
+toml = "^0.10.2"
 
 
 [tool.poetry.group.dev.dependencies]
