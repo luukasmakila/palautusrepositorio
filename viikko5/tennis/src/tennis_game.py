@@ -42,7 +42,8 @@ class TennisGame:
             score["score"] = "Win for player2"
     
     def handle_else(self, score: dict, temp_score: int):
-         for i in range(1, 3):
+        max_score = 3
+        for i in range(1, max_score):
             if i == 1:
                 temp_score = self.scores[self.player1_name]
             else:
